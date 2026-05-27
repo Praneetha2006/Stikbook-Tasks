@@ -1,0 +1,61 @@
+.profile-card {
+  width: 300px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.profile-card:hover {
+  transform: translateY(-5px);
+}
+
+.profile-card h2 {
+  color: #2563eb;
+  margin-bottom: 10px;
+}
+
+.job-title {
+  font-weight: bold;
+  color: #444;
+}
+
+.company {
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.extra-details {
+  margin-bottom: 15px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.show-btn,
+.delete-btn {
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+}
+
+.show-btn {
+  background-color: #2563eb;
+}
+
+.show-btn:hover {
+  background-color: #1d4ed8;
+}
+
+.delete-btn {
+  background-color: #dc2626;
+}
+
+.delete-btn:hover {
+  background-color: #b91c1c;
+}
