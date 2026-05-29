@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0f172a;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 500px;
+    margin: 40px auto;
+    background-color: #1e293b;
+    padding: 25px;
+    border-radius: 10px;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+.todo-form {
+    display: flex;
+    gap: 10px;
+}
+
+.todo-form input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.todo-form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #22c55e;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.todo-item {
+    background-color: #334155;
+    margin-top: 15px;
+    padding: 12px;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+.delete-btn {
+    margin-left: 10px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    padding: 7px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.counter {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.empty-message {
+    text-align: center;
+    margin-top: 30px;
+    color: lightgray;
+}
