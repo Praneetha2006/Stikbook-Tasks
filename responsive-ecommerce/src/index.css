@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+.app {
+  padding: 20px;
+}
+
+nav {
+  background: black;
+  color: white;
+  padding: 15px 20px;
+  margin-bottom: 30px;
+}
+
+.product-container {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.gallery img {
+  border-radius: 10px;
+}
+
+.details {
+  max-width: 500px;
+}
+
+.details h1 {
+  margin-top: 0;
+}
+
+button {
+  padding: 10px 15px;
+  cursor: pointer;
+  border: none;
+  background: black;
+  color: white;
+  margin-top: 10px;
+}
+
+select {
+  padding: 8px;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.related-products {
+  margin-top: 40px;
+}
+
+.related-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.related-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 120px;
+  text-align: center;
+}
+
+.reviews {
+  margin-top: 40px;
+}
+
+.review-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
